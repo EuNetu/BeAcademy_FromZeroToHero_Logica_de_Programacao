@@ -27,11 +27,14 @@ Inicio
       se(opcao = 2) entao
          escreva("De quanto será o saque: ")
          leia(saque)
-
-         saldoFinal <- saldo - saque
-         escreval("Seu saldo inicial era de: ", saldo)
-         escreval("Você fez um saque de: ", saque)
-         escreval("Seu saldo atual é de: ", saldoFinal)
+         se(saque <= saldo)entao
+            saldoFinal <- saldo - saque
+            escreval("Seu saldo inicial era de: ", saldo)
+            escreval("Você fez um saque de: ", saque)
+            escreval("Seu saldo atual é de: ", saldoFinal)
+         senao
+            escreval("Você não tem esse dinheiro em conta, seu saldo é de: ", saldo)
+         fimse
       senao
          escreva("Opção inválida")
       fimse
