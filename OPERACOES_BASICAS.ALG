@@ -20,7 +20,7 @@ Inicio
          escreval(primeiro, " / ", segundo, " = ", (primeiro/segundo))
       fimse
       escreval("Deseja realizar uma nova operacao? ")
-      escreval("Digite 0 para parar o programa: ")
+      escreval("Digite 0 para parar o programa ou qualquer outra coisa para continuar: ")
       leia(flag)
    fimenquanto
 Fimalgoritmo
