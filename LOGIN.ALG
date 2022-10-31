@@ -14,10 +14,10 @@ Inicio
       leia(senha)
       se ((nome <> "Marcos") ou (senha <> "1234")) entao
          escreval("Nome ou senha incorretos")
-         escreval("Digite qualquer coisa para continuar ou  digite 1 para parar")
+         escreval("Digite qualquer coisa para continuar ou  digite -1 para parar")
          leia(flag)
       fimse
-   ate (((nome = "Marcos") E (senha = "1234")) ou (flag = "1"))
+   ate (((nome = "Marcos") E (senha = "1234")) ou (flag = "-1"))
 
    se ((nome <> "Marcos") ou (senha <> "1234")) entao
       escreva("Programa finalizado pelo usuário")
