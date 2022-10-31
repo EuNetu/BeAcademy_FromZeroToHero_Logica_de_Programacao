@@ -7,24 +7,24 @@ Var
 
 Inicio
    saldo <- 35000
-   escreval("Escolha operação que deseja realizar")
-   escreval("saque - S")
+      escrevaEscolha operação que deseja realizarair")
+      escreval("saque -)
    escreval("deposito - D")
-   escreval("transferencia - T")
-   leia(opcao)
-   
-   escolha opcao
-   caso "s"
-      escreva("De quanto será o saque: ")
-      leia(saque)
-      se(saque <= saldo)entao
-         saldoFinal <- saldo - saque
-         escreval("Seu saldo inicial era de: ", saldo)
-         escreval("Você fez um saque de: ", saque)
-         escreval("Seu saldo atual é de: ", saldoFinal)
-      senao
-         escreval("Você não tem esse dinheiro em conta, seu saldo é de: ", saldo)
-      fimse
+   escreval("transferencia - T" S")
+      leia(opcao)
+
+      escolha opcao
+      caso "s"
+         escreva("De quanto será o saque: ")
+         leia(saque)
+         se(saque <= saldo)entao
+            saldoFinal <- saldosaque150
+            escreval("Seu saldo inicial era de: ", saldo)
+            escreval("Você fez um saque de: ", saque)
+            escreval("Seu saldo atual é de: ", saldoFinal)
+         senao
+            escreval("Você não tem esse dinheiro em conta, seu saldo é de: ", saldo)
+         fi
 
    caso "d"
       escreva("De quanto será o deposito: ")
@@ -55,6 +55,6 @@ Inicio
       fimse
    outrocaso
       escreva("Opção inválida")
-   fimescolha
-
+   fimescolhamse
+lha
 Fimalgoritmo
